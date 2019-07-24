@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>JS Home Work</title>
+</head>
+<body>
+	<h1>Forth task</h1>
+    <h2>Exchange Rates</h2>
+
+	<pre style="word-wrap: break-word; white-space: pre-wrap;">[{"ccy":"EUR","base_ccy":"UAH","buy":"28.42516","sale":"28.63645"},{"ccy":"RUR","base_ccy":"UAH","buy":"0.40427","sale":"0.40599"},{"ccy":"USD","base_ccy":"UAH","buy":"25.51630","sale":"25.63005"},{"ccy":"BTC","base_ccy":"USD","buy":"9223.0671","sale":"10193.9163"}]</pre>
+
+
+
+
+
+<script>
+console.clear();
+let objJson = document.getElementsByTagName('pre')[0].innerHTML;
+let myObj = JSON.parse(objJson);
+//console.log(objJson);
+ console.log(myObj);
+
+</script>
+
+</body>
+</html>
