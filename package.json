@@ -1,0 +1,22 @@
+{
+  "name": "14",
+  "version": "1.0.0",
+  "description": "dfghj",
+  "main": "index_2.js",
+  "dependencies": {
+    "load-json-file": "^6.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "bbf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "dfs"
+  },
+  "keywords": [
+    "ds"
+  ],
+  "author": "",
+  "license": "ISC"
+}
